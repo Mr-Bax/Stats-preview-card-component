@@ -23,8 +23,8 @@ Users should be able to:
 
 
 ### Links
-- Solution URL:(https://github.com/Mr-Bax/Stats-preview-card-component.git)
-- Live Site URL: [Add live site URL here](https://mr-bax.github.io/Stats-preview-card-component/)
+- Solution URL:[Solution](https://github.com/Mr-Bax/Stats-preview-card-component.git)
+- Live Site URL: [live site](https://mr-bax.github.io/Stats-preview-card-component/)
 
 ## My process
 ### Built with

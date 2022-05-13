@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 - Solution URL:(https://github.com/Mr-Bax/Stats-preview-card-component.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://mr-bax.github.io/Stats-preview-card-component/)
 
 ## My process
 ### Built with

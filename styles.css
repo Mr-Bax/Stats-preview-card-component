@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+
+}
+
+b{
+    color: hsl(277, 64%, 61%);
+}
+
+.container{
+    
+    margin:8%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+    
+    
+}
+
+.info{
+    background-color: hsl(244, 38%, 16%);
+    /* margin: 30px; */
+    width: 50%;
+    height: auto;
+    border-radius: 10px 0px 0px 10px;
+    
+
+}
+
+.top{
+    color: hsl(0, 0%, 100%);
+    font-size: 2.3em;
+    font-family: 'Inter', sans-serif;
+    margin: 10% 18% 5% 8%;
+}
+
+.mid{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 5% 25% 5% 8%;
+    line-height:20px ; 
+}
+
+.stats{
+   
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    margin: 20% 18% 8% 8%;
+    text-transform: uppercase;
+}
+
+
+
+.stats >ul{
+    
+    display:  flex;
+    width: 100%;
+    
+
+}
+
+.stats > ul >li{
+   
+    margin-right: 22%;
+}
+
+.numbers{
+    font-size: 1.1em;
+    font-family: 'Lexend Deca', sans-serif;
+    display: block;
+}
+
+.text{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: .7em;
+    display: block;
+}
+
+.image .picture{
+    height: 100%;    
+    width: 500px;
+    background-image: url(images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    border-radius: 0px 10px 10px 0px;
+
+    
+}
+
+.image .picture .overlay{
+    background-color: hsla(277, 64%, 61%, 0.404);  
+    height: 100%;
+    width: 500px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+@media(max-width:375px){
+    .container{
+        
+        margin:20%;
+        height: 90%;
+        width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .info{
+        width: 100%;
+        border-radius: 0px 0px 10px 10px;
+        text-align: center;
+    }
+    .top{
+        font-size: 1.8em;
+        margin: 0px;
+        margin: 10% 8%;
+        padding: 0% 0%;
+        
+    }
+    .mid{
+        font-size: 15px;
+        margin: 0% 9%;
+    }
+    .stats{
+        margin: 5% 18% 0% 8%;
+    }
+        
+    .stats >ul{    
+        display:  block;
+        width: 100%;   
+        
+    }
+    
+    .stats > ul >li{
+        margin: 10% 8%;
+    }
+
+    .image{
+        height: 278px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px 10px 0px 0px ;
+        
+        
+    }
+     .picture{
+
+        width: 278px;
+        height: 100%;
+        background-size: contain;
+        background-image: url(images/image-header-desktop.jpg);
+        background-repeat: no-repeat;
+        border-radius: 0px 10px 0px 0px;
+          
+    }
+    
+    .image .picture .overlay{
+        background-color: hsla(277, 64%, 61%, 0.541);  
+        height: 278px;
+        width: 67.5%;
+        border-radius: 10px 10px 0px 0px;
+    }
+}
